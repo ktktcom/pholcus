@@ -2,9 +2,9 @@ package mgo
 
 import (
 	"errors"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/common/pool"
+	"github.com/ktktcom/pholcus/config"
+	"github.com/ktktcom/pholcus/logs"
 	mgo "gopkg.in/mgo.v2"
 )
 

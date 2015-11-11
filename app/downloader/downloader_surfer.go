@@ -3,8 +3,8 @@ package downloader
 import (
 	"net/http"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/context"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/ktktcom/pholcus/app/downloader/context"
+	"github.com/ktktcom/pholcus/config"
 	"github.com/henrylee2cn/surfer"
 )
 

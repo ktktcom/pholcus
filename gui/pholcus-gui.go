@@ -6,10 +6,10 @@ package gui
 import (
 	"log"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	. "github.com/henrylee2cn/pholcus/gui/model"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/ktktcom/pholcus/app"
+	"github.com/ktktcom/pholcus/app/spider"
+	. "github.com/ktktcom/pholcus/gui/model"
+	"github.com/ktktcom/pholcus/runtime/status"
 	"github.com/lxn/walk"
 	"github.com/lxn/walk/declarative"
 )

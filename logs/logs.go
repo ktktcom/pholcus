@@ -6,7 +6,7 @@ import (
 	"path"
 
 	"github.com/henrylee2cn/beelogs"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/ktktcom/pholcus/config"
 )
 
 type Logs interface {

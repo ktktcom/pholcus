@@ -1,9 +1,9 @@
 package gui
 
 import (
-	. "github.com/henrylee2cn/pholcus/gui/model"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	. "github.com/ktktcom/pholcus/gui/model"
+	"github.com/ktktcom/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/runtime/status"
 	"github.com/lxn/walk"
 	"github.com/lxn/walk/declarative"
 )

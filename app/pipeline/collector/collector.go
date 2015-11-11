@@ -3,9 +3,9 @@ package collector
 
 import (
 	"fmt"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/config"
+	"github.com/ktktcom/pholcus/runtime/cache"
 	"time"
 )
 

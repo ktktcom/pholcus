@@ -2,8 +2,8 @@ package common
 
 import (
 	"github.com/PuerkitoBio/goquery"
-	"github.com/henrylee2cn/pholcus/app/downloader/context"
-	. "github.com/henrylee2cn/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/app/downloader/context"
+	. "github.com/ktktcom/pholcus/app/spider"
 	"net/url"
 	"strings"
 )

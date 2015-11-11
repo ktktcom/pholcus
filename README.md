@@ -1,16 +1,16 @@
-# pholcus    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/henrylee2cn/pholcus)
+# pholcus    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/ktktcom/pholcus)
 
 Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。
 
-![image](https://github.com/henrylee2cn/pholcus/blob/master/doc/icon.png)
+![image](https://github.com/ktktcom/pholcus/blob/master/doc/icon.png)
 
-* 稳定版： [Version 0.7.4 (Nov 10, 2015)](https://github.com/henrylee2cn/pholcus/releases)
+* 稳定版： [Version 0.7.4 (Nov 10, 2015)](https://github.com/ktktcom/pholcus/releases)
 
 * 官方QQ群：Go大数据 42731170    [![Go大数据群](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=83ee3e1a4be6bdb2b08a51a044c06ae52cf10a082f7c5cf6b36c1f78e8b03589)
 
 #### 爬虫原理
 
-![image](https://github.com/henrylee2cn/pholcus/blob/master/doc/project.png)
+![image](https://github.com/ktktcom/pholcus/blob/master/doc/project.png)
 
 
 #### 框架特点
@@ -38,7 +38,7 @@ Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重�
 
 2. 下载保持更新状态的源码，命令行如下
 ```
-go get github.com/henrylee2cn/pholcus
+go get github.com/ktktcom/pholcus
 ```
 
 备注：Pholcus公开维护的spider规则库地址 <https://github.com/pholcus/spider_lib>
@@ -51,9 +51,9 @@ go get github.com/henrylee2cn/pholcus
 package main
 
 import (
-    "github.com/henrylee2cn/pholcus/config"
-    "github.com/henrylee2cn/pholcus/exec"
-    "github.com/henrylee2cn/pholcus/logs"
+    "github.com/ktktcom/pholcus/config"
+    "github.com/ktktcom/pholcus/exec"
+    "github.com/ktktcom/pholcus/logs"
 
     _ "github.com/pholcus/spider_lib" // 此为公开维护的spider规则库
     // _ "github.com/pholcus/spider_lib_pte" // 同样你也可以自由添加自己的规则库
@@ -115,8 +115,8 @@ go install (可选参数： -ip 0.0.0.0 -port 9090)
 ```
 go build (可选参数： -ip 0.0.0.0 -port 9090)
 ```
-> *<font size="2">(注意：将 src/github.com/henrylee2cn/pholcus/web 文件夹拷贝至当前项目目录下，其中的go文件可删除)*
-![image](https://github.com/henrylee2cn/pholcus/blob/master/doc/webshow_1.jpg)
+> *<font size="2">(注意：将 src/github.com/ktktcom/pholcus/web 文件夹拷贝至当前项目目录下，其中的go文件可删除)*
+![image](https://github.com/ktktcom/pholcus/blob/master/doc/webshow_1.jpg)
 
 &nbsp;
 
@@ -132,7 +132,7 @@ go build -ldflags="-H windowsgui"
 
 > *<font size="2">(下图为GUI选择模式界面图例)*
 
-![image](https://github.com/henrylee2cn/pholcus/blob/master/doc/guishow_0.jpg)
+![image](https://github.com/ktktcom/pholcus/blob/master/doc/guishow_0.jpg)
 
 &nbsp;
 
@@ -145,7 +145,7 @@ go build -ldflags="-H windowsgui"
 ```
 
 > *<font size="2">(注：花括号“{}”中为选择参数或参数格式，多个参数值之间用逗号“,”间隔，各项参数根据采集规则的需要自行设置)*
-![image](https://github.com/henrylee2cn/pholcus/blob/master/doc/cmd.jpg)
+![image](https://github.com/ktktcom/pholcus/blob/master/doc/cmd.jpg)
 
 &nbsp;
 
@@ -177,4 +177,4 @@ go get golang.org/x/text/transform
 
 #### 开源协议
 
-Pholcus（幽灵蛛）项目采用商业应用友好的[Apache License v2](https://github.com/henrylee2cn/pholcus/blob/master/doc/license.txt).发布
+Pholcus（幽灵蛛）项目采用商业应用友好的[Apache License v2](https://github.com/ktktcom/pholcus/blob/master/doc/license.txt).发布

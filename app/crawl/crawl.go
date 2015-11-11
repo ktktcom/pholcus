@@ -1,13 +1,13 @@
 package crawl
 
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader"
-	"github.com/henrylee2cn/pholcus/app/downloader/context"
-	"github.com/henrylee2cn/pholcus/app/pipeline"
-	"github.com/henrylee2cn/pholcus/app/scheduler"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/app/downloader"
+	"github.com/ktktcom/pholcus/app/downloader/context"
+	"github.com/ktktcom/pholcus/app/pipeline"
+	"github.com/ktktcom/pholcus/app/scheduler"
+	"github.com/ktktcom/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/logs"
+	"github.com/ktktcom/pholcus/runtime/cache"
 
 	"io"
 	"math/rand"

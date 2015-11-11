@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/henrylee2cn/pholcus/logs" //信息输出
+	"github.com/ktktcom/pholcus/logs" //信息输出
 	"sort"
 	"sync"
 	"time"

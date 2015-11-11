@@ -1,8 +1,8 @@
 package gui
 
 import (
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/ktktcom/pholcus/app"
+	"github.com/ktktcom/pholcus/config"
 	. "github.com/lxn/walk/declarative"
 )
 

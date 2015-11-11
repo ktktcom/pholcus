@@ -2,9 +2,9 @@
 package pipeline
 
 import (
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/common/deduplicate"
+	"github.com/ktktcom/pholcus/app/pipeline/collector"
+	"github.com/ktktcom/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/common/deduplicate"
 	"io"
 )
 

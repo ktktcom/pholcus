@@ -1,7 +1,7 @@
 ﻿package distribute
 
 import (
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/logs"
 	"github.com/henrylee2cn/teleport"
 )
 

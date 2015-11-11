@@ -4,8 +4,8 @@ package collector
 import (
 	"time"
 
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/logs"
+	"github.com/ktktcom/pholcus/runtime/cache"
 )
 
 var Output = make(map[string]func(self *Collector, dataIndex int))

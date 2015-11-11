@@ -2,7 +2,7 @@
 package collector
 
 import (
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/runtime/cache"
 	"sync"
 	"time"
 )

@@ -2,11 +2,11 @@ package deduplicate
 
 import (
 	"encoding/json"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/ktktcom/pholcus/common/mgo"
+	"github.com/ktktcom/pholcus/common/util"
+	"github.com/ktktcom/pholcus/config"
+	"github.com/ktktcom/pholcus/logs"
+	"github.com/ktktcom/pholcus/runtime/status"
 	"gopkg.in/mgo.v2/bson"
 	"io/ioutil"
 	"os"

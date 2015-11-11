@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/crawl"
-	"github.com/henrylee2cn/pholcus/app/distribute"
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector"
-	"github.com/henrylee2cn/pholcus/app/scheduler"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/ktktcom/pholcus/app/crawl"
+	"github.com/ktktcom/pholcus/app/distribute"
+	"github.com/ktktcom/pholcus/app/pipeline/collector"
+	"github.com/ktktcom/pholcus/app/scheduler"
+	"github.com/ktktcom/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/logs"
+	"github.com/ktktcom/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/runtime/status"
 	"github.com/henrylee2cn/teleport"
 )
 

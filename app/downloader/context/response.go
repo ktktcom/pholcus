@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/logs"
 	"golang.org/x/net/html/charset"
 )
 

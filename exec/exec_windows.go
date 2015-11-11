@@ -6,12 +6,12 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/henrylee2cn/pholcus/app/scheduler"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/ktktcom/pholcus/app/scheduler"
+	"github.com/ktktcom/pholcus/config"
 
-	"github.com/henrylee2cn/pholcus/cmd" // cmd版
-	"github.com/henrylee2cn/pholcus/gui" // gui版
-	"github.com/henrylee2cn/pholcus/web" // web版
+	"github.com/ktktcom/pholcus/cmd" // cmd版
+	"github.com/ktktcom/pholcus/gui" // gui版
+	"github.com/ktktcom/pholcus/web" // web版
 )
 
 func Run(which string) {

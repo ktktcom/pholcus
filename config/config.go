@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/ktktcom/pholcus/runtime/cache"
+	"github.com/ktktcom/pholcus/runtime/status"
 )
 
 // 相关默认值，可在main中重新定义

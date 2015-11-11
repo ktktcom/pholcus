@@ -1,10 +1,10 @@
 package spider
 
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader/context"
-	"github.com/henrylee2cn/pholcus/app/scheduler"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/app/downloader/context"
+	"github.com/ktktcom/pholcus/app/scheduler"
+	"github.com/ktktcom/pholcus/common/util"
+	"github.com/ktktcom/pholcus/logs"
 )
 
 const (

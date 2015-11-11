@@ -1,8 +1,8 @@
 package collector
 
 import (
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/common/util"
+	"github.com/ktktcom/pholcus/common/mysql"
+	"github.com/ktktcom/pholcus/common/util"
 )
 
 /************************ Mysql 输出 ***************************/

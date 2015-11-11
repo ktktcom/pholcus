@@ -2,7 +2,7 @@
 
 import (
 	"encoding/json"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/logs"
 	"github.com/henrylee2cn/teleport"
 )
 

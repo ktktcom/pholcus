@@ -3,10 +3,10 @@ package mysql
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/ktktcom/pholcus/common/pool"
+	"github.com/ktktcom/pholcus/common/util"
+	"github.com/ktktcom/pholcus/config"
+	"github.com/ktktcom/pholcus/logs"
 	"strings"
 )
 

@@ -5,7 +5,7 @@
 package model
 
 import (
-	"github.com/henrylee2cn/pholcus/app/spider"
+	"github.com/ktktcom/pholcus/app/spider"
 	"github.com/lxn/walk"
 	"sort"
 
