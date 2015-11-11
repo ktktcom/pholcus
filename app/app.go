@@ -564,8 +564,13 @@ func (self *Logic) goRun(count int) {
 		c := self.CrawlPool.Use()
 		if c != nil {
 			go func(i int, c crawl.Crawler) {
+				s := self.SpiderQueue.GetByIndex(i)
 				// 执行并返回结果消息
-				c.Init(self.SpiderQueue.GetByIndex(i)).Start()
+				c.Init(s).Start()
+
+				if s.FinishR != nil {
+					s.FinishR()
+				}
 				// 任务结束后回收该蜘蛛
 				self.CrawlPool.Free(c)
 			}(i, c)

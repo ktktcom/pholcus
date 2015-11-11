@@ -31,6 +31,7 @@ type Spider struct {
 	Namespace func(*Spider) string
 	// 子命名空间相对于表名，可依赖具体数据内容，可选
 	SubNamespace func(self *Spider, dataCell map[string]interface{}) string
+	FinishR      func()
 }
 
 // 生成并添加请求至队列
@@ -278,6 +279,7 @@ func (self *Spider) Gost() *Spider {
 	copy(gost.proxys, self.proxys)
 
 	gost.currProxy = self.currProxy
+	gost.FinishR = self.FinishR
 
 	return gost
 }
